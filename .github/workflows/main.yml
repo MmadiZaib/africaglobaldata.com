@@ -5,29 +5,49 @@ name: CI/CD
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ master ]
+    branches:
+      - master
+  
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+  web-deploy:
+    name: 🎉 Deploy
+      runs-on: ubuntu-latest
+
+      strategy:
+        matrix:
+          node-version: [14.x]
+      
+      steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@master
         with:
-          node-version: 14
-      - run: npm install
-      - run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "gh-actions"
-          git remote set-url --push origin https://theolvs:$GITHUB_TOKEN@github.com/dataforgoodfr.github.io
-          npm run deploy
-        env:
-          GIT_USER: ${{ secrets.GIT_USER }}
-          GITHUB_TOKEN: ${{ secrets.GIT_PASSWORD }}
+          node-version: ${{ matrix.node-version }}
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
+
+      - name: List output files
+        run: find build/ -print
+      
+
+      - name: 📂 Sync files
+        uses: amKirkland/FTP-Deploy-Action@4.3.3
+        with: 
+          server: ${{ secrets.SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: build/
     
