@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Data For Good",
+  title: "Africa Global Data",
   tagline: "Accélérateur citoyen d'intérêt général",
-  url: "https://dataforgood.fr",
+  url: "https://africaglobaldata.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -66,9 +66,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Data For Good",
+        title: "Africa Global Data",
         logo: {
-          alt: "Data For Good Logo",
+          alt: "Africa Global Data Logo",
           src: "img/logo-dfg-new2.png",
         },
         items: [
@@ -115,11 +115,6 @@ const config = {
             ],
           },
           { to: "/blog", label: "📚 Blog", position: "left" },
-          {
-            to: "/saison12",
-            label: "🤿 Saison 12",
-            position: "left",
-          },
           { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           {
             to: "/join",

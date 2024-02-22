@@ -302,7 +302,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Data For Good - le numérique pour l'intérêt général"
+      description="Africa Global Data - le numérique pour l'intérêt général"
     >
       <HomepageHeader />
       <main>
@@ -325,7 +325,7 @@ export default function Home() {
 
         <section className="light-green">
           <div className="container main-section">
-            <h1>L'association Data For Good</h1>
+            <h1>L'association Africa Global Data</h1>
             <div className="row">
               <div className="col col--6">
                 <img
