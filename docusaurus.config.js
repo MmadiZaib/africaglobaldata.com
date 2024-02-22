@@ -14,8 +14,8 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   deploymentBranch: "main",
   favicon: "img/logo-dfg-new.png",
-  organizationName: "dataforgoodfr", // Usually your GitHub org/user name.
-  projectName: "dataforgoodfr.github.io", // Usually your repo name.
+  organizationName: "africaglobaldata", // Usually your GitHub org/user name.
+  projectName: "africaglobaldata.com", // Usually your repo name.
   plugins: [
     // require.resolve('docusaurus-lunr-search'),
     [
@@ -79,7 +79,7 @@ const config = {
           //   label: "🌎 Qui sommes-nous ?",
           // },
           {
-            to: "https://dataforgood.notion.site/",
+            to: "#",
             label: "🌎 Qui sommes-nous ?",
             position: "left",
           },
@@ -129,7 +129,7 @@ const config = {
             position: "right",
           },
           {
-            to: "https://opencollective.com/data_for_good",
+            to: "#",
             label: "👏 Faire un don",
             className: "button button--secondary button--lg button-navbar",
             position: "right",
@@ -140,7 +140,7 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: "https://github.com/dataforgoodfr",
+            href: "#",
             className: "header-github-link",
             position: "right",
             "aria-label": "GitHub repository",
@@ -154,8 +154,8 @@ const config = {
             title: "Pages",
             items: [
               {
-                label: "L'association Data For Good",
-                to: "https://dataforgood.notion.site",
+                label: "L'association Africa Global Data",
+                to: "#",
               },
               {
                 label: "Serment d'Hippocrate",
@@ -163,7 +163,7 @@ const config = {
               },
               {
                 label: "FAQ",
-                to: "https://dataforgood.notion.site/f58df2b6f02849a4ae94d8cb9ce49e5f?v=c165effdeeb140ea9fe964ca966485a6",
+                to: "#",
               },
               {
                 label: "Politique de confidentialité",
@@ -176,23 +176,11 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/dataforgoodfr",
+                href: "https://africaglobaldata.com",
               },
               {
                 label: "Youtube",
-                href: "https://www.youtube.com/channel/UCA_utdbmVhAOFujulWlaaCQ",
-              },
-              {
-                label: "Meetup",
-                href: "https://www.meetup.com/Data-for-Good-FR",
-              },
-              {
-                label: "Hugging Face",
-                href: "https://huggingface.co/DataForGood",
-              },
-              {
-                label: "Twitch",
-                href: "https://twitch.tv/dataforgood",
+                href: "https://africaglobaldata.com",
               },
             ],
           },
@@ -205,24 +193,24 @@ const config = {
               },
               {
                 label: "Notion",
-                href: "https://dataforgood.notion.site",
+                href: "https://africaglobaldata.com",
               },
               {
                 label: "Linkedin",
-                href: "https://www.linkedin.com/company/dataforgood",
+                href: "https://africaglobaldata.com",
               },
               {
                 label: "Instagram",
-                href: "https://www.instagram.com/dataforgoodfr/",
+                href: "https://africaglobaldata.com",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/dataforgood_fr",
+                href: "https://africaglobaldata.com",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Data For Good - Avec amour depuis 2014 ❤ - contact à hellodataforgood@gmail.com`,
+        copyright: `Copyright © ${new Date().getFullYear()} Africa Global Data`,
       },
       // announcementBar: {
       //   id: 'announcementBar-2', // Increment on change
