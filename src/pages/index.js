@@ -84,41 +84,83 @@ const TeamMember = ({ src, name, contact, role }) => {
 
 const teamList = [
   {
-    src: "img/team/marty.png",
-    name: "Marty",
-    role: "Mascotte",
-    contact: "https://www.linkedin.com/company/10627994",
+    src: "img/team/eric-makita.jpeg",
+    name: "Eric Makita",
+    role: "Président",
+    contact: "https://www.linkedin.com/in/eric-makita",
   },
   {
-    src: "img/team/theo.jpg",
-    name: "Théo Alves Da Costa",
-    role: "Co-Président",
-    contact: "https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/",
+    src: "img/team/jolène.jpeg",
+    name: "Jolène Eyeang Bitome",
+    role: "Sécrétaire Général",
+    contact: "https://www.linkedin.com/in/jol%C3%A8ne-eyeang-bitome-3964b616b/",
   },
   {
-    src: "img/team/lou.jpg",
-    name: "Lou Welgryn",
-    role: "Co-Présidente",
-    contact: "https://www.linkedin.com/in/lou-welgryn-460434b0/",
+    src: "img/team/renaud.jpeg",
+    name: "Renaud Moukala",
+    role: "Comptable",
+    contact: "https://www.linkedin.com/in/renaud-moukala-0ab4192b1",
   },
   // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
   {
-    src: "img/team/benjamin.png",
-    name: "Benjamin Rouif",
-    role: "Bureau",
-    contact: "https://www.linkedin.com/in/brouif/",
+    src: "img/team/marty.png",
+    name: "Muriel  Andong Bitome",
+    role: "Directrice de la communication",
+    contact: "#",
   },
   {
-    src: "img/team/clement.jfif",
-    name: "Clément Mayer",
-    role: "Bureau",
-    contact: "https://www.linkedin.com/in/cl%C3%A9ment-mayer-02a61216/",
+    src: "img/team/zaib.jpeg",
+    name: "Zaïb M'Madi",
+    role: "Web Developer",
+    contact: "https://www.linkedin.com/in/mmadi-zaib",
   },
   {
-    src: "img/team/ronan.jpg",
-    name: "Ronan Sy",
-    role: "Bureau",
-    contact: "https://fr.linkedin.com/in/ronan-sy-984579a3",
+    src: "img/team/marty.png",
+    name: "Boris",
+    role: "Référent webinaire et international",
+    contact: "#",
+  },
+  {
+    src: "img/team/marty.png",
+    name: "Grégoire",
+    role: "Référent environnement",
+    contact: "#",
+  },
+  {
+    src: "img/team/georf.jpeg",
+    name: "Georf Miguiama Bamba",
+    role: "Référent  Intelligence Artificielle",
+    contact: "https://www.linkedin.com/in/georfmiguiamabamba",
+  },
+  {
+    src: "img/team/marty.png",
+    name: "Patrick",
+    role: "Référent Big Data",
+    contact: "#",
+  },
+  {
+    src: "img/team/marty.png",
+    name: "Joseph",
+    role: "Référent Data science",
+    contact: "#",
+  },
+  {
+    src: "img/team/marty.png",
+    name: "Ludvidia",
+    role: "Sous Référente Data science",
+    contact: "#",
+  },
+  {
+    src: "img/team/marty.png",
+    name: "Kevin",
+    role: "Référent blockchain",
+    contact: "#",
+  },
+  {
+    src: "img/team/marty.png",
+    name: "Andy",
+    role: "Référent blockchain",
+    contact: "#",
   },
   // {src:"img/team/clement.jfif","name":"Clément Mayer","role":"Coordinateur","contact":"https://www.linkedin.com/in/cl%C3%A9ment-mayer-02a61216/"},
   // {src:"img/team/mickael.jpg","name":"Mickael Fine","role":"Coordinateur","contact":"https://www.linkedin.com/in/mickaelfine/"},
@@ -308,7 +350,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
 
-        <section>
+{/*         <section>
           <div className="container main-section">
             <h1>Les news</h1>
             <h2>La Saison 12 Data For Good</h2>
@@ -321,7 +363,7 @@ export default function Home() {
                 />
             </a>
             </div>  
-        </section>
+        </section> */}
 
         <section className="light-green">
           <div className="container main-section">
@@ -339,7 +381,7 @@ export default function Home() {
                 style={{ "text-align": "left", "align-content": "center" }}
               >
                 <p>
-                  Data For Good est une association loi 1901 (
+                  Africa Global data est une association loi 1901 (
                   <i>100% bénévole, 100% open-source, 100% citoyenne</i>) créée
                   en 2014 qui rassemble une communauté de{" "}
                   <b>4000+ volontaires</b> tech (Data Scientists, Data Analysts,
@@ -372,7 +414,7 @@ export default function Home() {
         </section>
         <section>
           <div className="container main-section">
-            <h1>Les projets Data For Good</h1>
+            <h1>Les projets Africa Global Data</h1>
             <p>
               Plus d'informations dans la page{" "}
               <Link to="/projects">🔥 Projets</Link>
@@ -382,11 +424,11 @@ export default function Home() {
         </section>
         <section className="light-green">
           <div className="container main-section">
-            <h1>L'équipe Data For Good</h1>
+            <h1>L'équipe Africa Global Data</h1>
             <p>
               🖐 Vous pouvez contacter l'équipe à{" "}
-              <Link to="mailto:hellodataforgood@gmail.com">
-                hellodataforgood@gmail.com
+              <Link to="mailto:hello@africaglobaldata.com">
+                hello@africaglobaldata.com
               </Link>
             </p>
             <SectionTeam />
