@@ -101,18 +101,24 @@ const teamList = [
     role: "Comptable",
     contact: "https://www.linkedin.com/in/renaud-moukala-0ab4192b1",
   },
+  {
+    src: "img/team/zaib.jpeg",
+    name: "Zaïb M'Madi",
+    role: "Web Developer",
+    contact: "https://www.linkedin.com/in/mmadi-zaib",
+  },
+  {
+    src: "img/team/georf.jpeg",
+    name: "Georf Miguiama Bamba",
+    role: "Référent  Intelligence Artificielle",
+    contact: "https://www.linkedin.com/in/georfmiguiamabamba",
+  },
   // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
   {
     src: "img/team/marty.png",
     name: "Muriel  Andong Bitome",
     role: "Directrice de la communication",
     contact: "#",
-  },
-  {
-    src: "img/team/zaib.jpeg",
-    name: "Zaïb M'Madi",
-    role: "Web Developer",
-    contact: "https://www.linkedin.com/in/mmadi-zaib",
   },
   {
     src: "img/team/marty.png",
@@ -125,12 +131,6 @@ const teamList = [
     name: "Grégoire",
     role: "Référent environnement",
     contact: "#",
-  },
-  {
-    src: "img/team/georf.jpeg",
-    name: "Georf Miguiama Bamba",
-    role: "Référent  Intelligence Artificielle",
-    contact: "https://www.linkedin.com/in/georfmiguiamabamba",
   },
   {
     src: "img/team/marty.png",
@@ -216,41 +216,6 @@ const partnersList = [
   { src: "img/partners/bayes.png", url: "https://www.bayesimpact.org/en/" },
   { src: "img/partners/datagen.png", url: "https://www.datageneration.co/" },
   { src: "img/partners/eclaircies.png", url: "https://eclaircies.co/" },
-  {
-    src: "img/partners/soscience.png",
-    url: "https://www.soscience.org/en/home-2/",
-  },
-  { src: "img/partners/jogl.png", url: "https://jogl.io/" },
-  { src: "img/partners/lll.png", url: "https://www.liberte.paris/" },
-  { src: "img/partners/lewagon.png", url: "https://www.lewagon.com/" },
-  { src: "img/partners/etalab.png", url: "https://www.etalab.gouv.fr/" },
-  {
-    src: "img/partners/dinum.png",
-    url: "https://www.numerique.gouv.fr/dinum/",
-  },
-  { src: "img/partners/mtes.png", url: "https://www.ecologie.gouv.fr/" },
-  { src: "img/partners/mtp.png", url: "https://www.transformation.gouv.fr/" },
-  { src: "img/partners/mif.png", url: "https://www.impactfrance.eco/" },
-  {
-    src: "img/partners/tfgf.png",
-    url: "https://www.impactfrance.eco/communautes-thematiques/tech-for-good",
-  },
-  { src: "img/partners/verteco.png", url: "https://vert.eco/" },
-  { src: "img/partners/lemonde.png", url: "https://lemonde.fr/" },
-  {
-    src: "img/partners/coalition.png",
-    url: "https://www.coalitiontechforgood.fr/",
-  },
-  { src: "img/partners/shareit.png", url: "https://www.share-it.io/" },
-  { src: "img/partners/athom.jfif", url: "https://athom.co/" },
-  {
-    src: "img/partners/fantastiquebazar.jpg",
-    url: "https://fantastiquebazar.com/",
-  },
-  { src: "img/partners/simplon.png", url: "https://www.simplonprod.co/" },
-  { src: "img/partners/numerikea.png", url: "https://www.numerik-ea.fr/" },
-  { src: "img/partners/solidatech.jpg", url: "https://www.solidatech.fr/" },
-  { src: "img/partners/qarnot.png", url: "https://qarnot.com/fr" },
 ];
 
 const SectionPartners = () => {
@@ -293,31 +258,6 @@ const projectsList = [
   { src: "img/projects/logos/cc.png", url: "" },
   { src: "img/projects/logos/pyro.png", url: "/projects/pyronear" },
   { src: "img/projects/logos/2tonnes.png", url: "" },
-  { src: "img/projects/logos/ogre.png", url: "" },
-  {
-    src: "img/projects/logos/climatechance.jpg",
-    url: "/projects/climatechance",
-  },
-  { src: "img/projects/logos/mtes.png", url: "" },
-  { src: "img/projects/logos/ads.jpg", url: "" },
-  { src: "img/projects/logos/bloom.jpg", url: "" },
-  { src: "img/projects/logos/c4.png", url: "" },
-  { src: "img/projects/logos/arkhn.png", url: "" },
-  { src: "img/partners/shift.png", url: "/projects/shiftdataportal" },
-  { src: "img/projects/logos/bechdelai.png", url: "/projects/bechdelai" },
-  { src: "img/projects/logos/imagine2050.png", url: "/projects/imagineai" },
-  { src: "img/projects/logos/quotaclimat.png", url: "/projects/quotaclimat" },
-  { src: "img/projects/logos/greniers.png", url: "" },
-  { src: "img/projects/logos/ign.png", url: "" },
-  { src: "img/projects/logos/jogl.png", url: "" },
-  { src: "img/projects/logos/ldc.jpg", url: "" },
-  { src: "img/projects/logos/acf.png", url: "" },
-  { src: "img/projects/logos/phenix.jpg", url: "" },
-  { src: "img/projects/logos/sf.png", url: "" },
-  { src: "img/projects/logos/sr.png", url: "" },
-  { src: "img/projects/logos/tmrow.png", url: "" },
-  { src: "img/projects/logos/wb.png", url: "" },
-  { src: "img/projects/logos/lcr.jpg", url: "" },
 ];
 
 const SectionProjects = () => {
@@ -362,7 +302,7 @@ export default function Home() {
                   style={{ width: "100%", "margin-bottom": "20px" }}
                 />
             </a>
-            </div>  
+            </div>
         </section> */}
 
         <section className="light-green">
@@ -371,7 +311,7 @@ export default function Home() {
             <div className="row">
               <div className="col col--6">
                 <img
-                  src={`${useBaseUrl("img/events.jpg")}`}
+                  src={`${useBaseUrl("img/africa.png")}`}
                   alt="dfg-demoday"
                   style={{ width: "100%", "margin-bottom": "20px" }}
                 />

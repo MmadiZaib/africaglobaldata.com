@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Africa Global Data",
-  tagline: "Accélérateur citoyen d'intérêt général",
+  tagline: "Libérez le pouvoir de la data et façonnez l’avenir avec sagesse",
   url: "https://africaglobaldata.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -128,12 +128,12 @@ const config = {
             className: "button button--secondary button--lg button-navbar",
             position: "right",
           },
-          {
-            to: "#",
-            label: "👏 Faire un don",
-            className: "button button--secondary button--lg button-navbar",
-            position: "right",
-          },
+//          {
+//            to: "#",
+//            label: "👏 Faire un don",
+//            className: "button button--secondary button--lg button-navbar",
+//            position: "right",
+//          },
           // {
           //   href: 'https://dataforgood.slite.com/p/channel/F9UR6bhuYCPAtvfLDje8Zc/notes/p8MSVDq6k',
           //   label: 'FAQ',

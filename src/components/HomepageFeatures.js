@@ -9,8 +9,12 @@ const FeatureList = [
     Svg: require('../../static/img/pillar1.svg').default,
     description: (
       <>
-        <p style={{"text-align":"left"}}>Les technologies numériques sont incroyablement puissantes et redéfinissent le fonctionnement de notre société. Pour les acteurs qui œuvrent pour l'intérêt général, la technologie peut parfois être un levier démutiplicateur d'impacts positifs, cependant et malheureusement ces acteurs n'ont souvent pas les ressources technologiques ou humaines pour accélérer leur action citoyenne. <b>Data for Good existe pour rétablir l'équilibre.</b></p>
-        <p style={{"text-align":"left"}}><i>*Citoyens, associations, ONGs, institutions publiques et entreprises à fort impact social, environnemental et solidaire.</i></p>
+        <p style={{"text-align":"left"}}><i>Seul on va vite, mais ensemble on va plus loin.</i></p>
+        <p style={{"text-align":"left"}}>Cette expression africaine résonne profondément avec la philosophie d'Africa Global Data. En puisant dans une diversité de rencontres, que ce soit à Paris ou au Gabon, l'association trouve sa force dans la collaboration.</p>
+        <p style={{"text-align":"left"}}>Sous la direction du Dr Eric Makita, dont l'expertise dans le domaine des données a suscité l'intérêt de nombreux participants, tels que des étudiants, des professionnels en poste et des personnes en reconversion, Africa Global Data est née.</p>
+        <p style={{"text-align":"left"}}>Africa Global Data s'engage à:</p>
+        <p style={{"text-align":"left"}}>1. Informer l'Afrique et le monde sur la culture de la donnée.</p>
+        <p style={{"text-align":"left"}}>2. Valoriser les données afin de fournir des informations précieuses pour relever les défis de notre continent africain et du monde.</p>
       </>
     ),
   },
@@ -33,11 +37,11 @@ const FeatureList = [
     description: (
       <>
         <ul style={{"text-align":"left"}}>
-          <li><b>Des optimistes pragmatiques</b> – qui s'engagent à résoudre de vrais problèmes à travers une méthode d'accompagnement ascendante et itérative.</li>
-          <li><b>Des artisans de l'open source</b> – qui veulent que les progrès des uns puissent être réutilisés pour faire avancer les autres. Tout contenu produit au sein des projets (code, visuels, documentation, etc.) est publié sous une licence libre.</li>
-          <li><b>Des hackers indépendants</b> – qui ont choisi d'être 100% bénévoles pour conserver toute liberté dans leur prise de décisions.</li>
-          <li><b>Un collectif de bâtisseurs</b> – qui veulent construire brique par brique le monde de demain.</li>
-          <li><b>Des auto-critiques</b> – qui ont conscience que la technologie n'est pas la réponse à tout, qui reconnaissent et cherchent à limiter les impacts négatifs de ce qu'ils créent, et qui refusent de faire de la technologie pour faire de la technologie</li>
+          <li><b>Innovation</b> – Nous nous engageons à innover dans le domaine de la data en Afrique en sensibilisant et en renforçant les compétences des apprenants, malgré les obstacles.
+          Notre ambition est de devenir la plateforme de référence pour la prise de décisions en Afrique francophone, en explorants les données et les informations afin d'en tirer des enseignements précieux et pertinents.
+          </li>
+          <li><b>Intégrié</b> – L'intégrité est fondamentale pour nous, ce qui signifie que nous nous engageons à respecter la confidentialité, la précision et la qualité des données dans tous nos travaux et dans nos relations avec nos partenaires.</li>
+          <li><b>Inclusion</b> – L'inclusion est une valeur au sein d'Africa Global Data : chaque individu est bienvenu, quel que soit son profil ou son niveau d'études.</li>
         </ul>
       </>
     ),
