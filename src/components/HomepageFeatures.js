@@ -40,7 +40,7 @@ const FeatureList = [
           <li><b>Innovation</b> – Nous nous engageons à innover dans le domaine de la data en Afrique en sensibilisant et en renforçant les compétences des apprenants, malgré les obstacles.
           Notre ambition est de devenir la plateforme de référence pour la prise de décisions en Afrique francophone, en explorants les données et les informations afin d'en tirer des enseignements précieux et pertinents.
           </li>
-          <li><b>Intégrié</b> – L'intégrité est fondamentale pour nous, ce qui signifie que nous nous engageons à respecter la confidentialité, la précision et la qualité des données dans tous nos travaux et dans nos relations avec nos partenaires.</li>
+          <li><b>Intégrité</b> – L'intégrité est fondamentale pour nous, ce qui signifie que nous nous engageons à respecter la confidentialité, la précision et la qualité des données dans tous nos travaux et dans nos relations avec nos partenaires.</li>
           <li><b>Inclusion</b> – L'inclusion est une valeur au sein d'Africa Global Data : chaque individu est bienvenu, quel que soit son profil ou son niveau d'études.</li>
         </ul>
       </>
