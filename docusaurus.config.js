@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Africa Global Data",
-  tagline: "Libérez le pouvoir de la data et façonnez l’avenir avec sagesse",
+  tagline: "Libérez le pouvoir de la data et façonnez l’avenir du continent avec sagesse",
   url: "https://africaglobaldata.com",
   baseUrl: "/",
   onBrokenLinks: "throw",

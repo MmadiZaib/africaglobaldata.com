@@ -85,7 +85,7 @@ const TeamMember = ({ src, name, contact, role }) => {
 const teamList = [
   {
     src: "img/team/eric-makita.jpeg",
-    name: "Eric Makita",
+    name: "Dr Eric Makita",
     role: "Président",
     contact: "https://www.linkedin.com/in/eric-makita",
   },
@@ -96,7 +96,7 @@ const teamList = [
     contact: "https://www.linkedin.com/in/jol%C3%A8ne-eyeang-bitome-3964b616b/",
   },
   {
-    src: "img/team/renaud.jpeg",
+    src: "img/team/renaud.jpg",
     name: "Renaud Moukala",
     role: "Comptable",
     contact: "https://www.linkedin.com/in/renaud-moukala-0ab4192b1",
@@ -115,51 +115,63 @@ const teamList = [
   },
   // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
   {
-    src: "img/team/marty.png",
+    src: "img/team/muriel.png",
     name: "Muriel  Andong Bitome",
     role: "Directrice de la communication",
     contact: "#",
   },
   {
-    src: "img/team/marty.png",
-    name: "Boris",
-    role: "Référent webinaire et international",
-    contact: "#",
-  },
-  {
-    src: "img/team/marty.png",
-    name: "Grégoire",
+    src: "img/team/gregory.jpg",
+    name: "Dr Gregory Obiang Ndong",
     role: "Référent environnement",
     contact: "#",
   },
   {
+    src: "img/team/ghilsain.jpg",
+    name: "Dr Ghislain Strozzi Moussavou",
+    role: "Référent environnement",
+    contact: "#",
+  },
+  {
+    src: "img/team/joseph.jpg",
+    name: "Joseph Assu Ondo",
+    role: "Référent Data science",
+    contact: "#",
+  },
+  {
+    src: "img/team/ludvia.jpg",
+    name: "Ludvia Mbourou",
+    role: "Référente Data science",
+    contact: "#",
+  },
+  {
+    src: "img/team/andy.jpg",
+    name: "Andy Afene",
+    role: "Référent blockchain",
+    contact: "#",
+  },
+  {
+    src: "img/team/kevin-nzeng.jpg",
+    name: "Kevin Nzeng Essimengane",
+    role: "Référent Blockchain",
+    contact: "#",
+  },
+  {
+    src: "img/team/karine.jpg",
+    name: "Karine Mazand",
+    role: "Avocate",
+    contact: "#",
+  },
+  {
     src: "img/team/marty.png",
-    name: "Patrick",
+    name: "Patrick Moyap",
     role: "Référent Big Data",
     contact: "#",
   },
   {
     src: "img/team/marty.png",
-    name: "Joseph",
-    role: "Référent Data science",
-    contact: "#",
-  },
-  {
-    src: "img/team/marty.png",
-    name: "Ludvidia",
-    role: "Sous Référente Data science",
-    contact: "#",
-  },
-  {
-    src: "img/team/marty.png",
-    name: "Kevin",
-    role: "Référent blockchain",
-    contact: "#",
-  },
-  {
-    src: "img/team/marty.png",
-    name: "Andy",
-    role: "Référent blockchain",
+    name: "Kevin Mezui",
+    role: "Référent Intelligence Artificielle",
     contact: "#",
   },
   // {src:"img/team/clement.jfif","name":"Clément Mayer","role":"Coordinateur","contact":"https://www.linkedin.com/in/cl%C3%A9ment-mayer-02a61216/"},
@@ -210,12 +222,8 @@ const Partner = ({ src, url }) => {
 };
 
 const partnersList = [
-  { src: "img/partners/latitudes.png", url: "https://www.latitudes.cc/" },
-  { src: "img/partners/labelia.jpg", url: "https://www.labelia.org/" },
-  { src: "img/partners/vendredi.png", url: "https://www.vendredi.cc/" },
-  { src: "img/partners/bayes.png", url: "https://www.bayesimpact.org/en/" },
-  { src: "img/partners/datagen.png", url: "https://www.datageneration.co/" },
-  { src: "img/partners/eclaircies.png", url: "https://eclaircies.co/" },
+  { src: "img/partners/GABTROTTER.jpg", url: "https://www.latitudes.cc/" },
+  { src: "img/partners/libreville-american-corner.jpg", url: "https://www.labelia.org/" },
 ];
 
 const SectionPartners = () => {
@@ -320,34 +328,15 @@ export default function Home() {
                 className="col col--6"
                 style={{ "text-align": "left", "align-content": "center" }}
               >
-                <p>
-                  Africa Global data est une association loi 1901 (
-                  <i>100% bénévole, 100% open-source, 100% citoyenne</i>) créée
-                  en 2014 qui rassemble une communauté de{" "}
-                  <b>4000+ volontaires</b> tech (Data Scientists, Data Analysts,
-                  Data Engineers, Developers, UX/UI Designers, Product & Project
-                  Owners) souhaitant mettre leurs compétences au profit
-                  d'associations, d'ONG, et de l'ESS - et de s'engager pour
-                  l'intérêt général.
+                <p>Africa Global Data, association loi 1901 dédiée à l'engagement citoyen et fondée en 2024, incarne l'esprit de collaboration et d'entraide. Guidée par la sagesse africaine qui enseigne que l'union fait la force, notre communauté bénévole et open-source de passionnés tech s'unit pour offrir ses compétences au service des associations, des ONG et de l'économie sociale et solidaire.
+Notre philosophie s'ancre dans la conviction que la collaboration transcende les frontières, qu'elles soient géographiques, culturelles ou professionnelles, à travers le monde.Guidés par une expertise collective en données, qui séduit étudiants, professionnels actifs et personnes en reconversion, nous puisons notre force dans la diversité de nos rencontres et de nos échanges. 
+Cela souligne notre conviction profonde que c'est en unissant nos efforts que nous pouvons accomplir de grandes choses pour l'intérêt général.
                 </p>
                 <p>
-                  Nous réalisons chaque année des{" "}
-                  <b>
-                    saisons d'accélération où une dizaine de projets sont
-                    accompagnés par les bénévoles sur des thématiques sociales,
-                    sociétales et environnementales
-                  </b>
-                  . Nous avons ainsi accompagné, accéléré et co-construits plus
-                  de <Link to="/projects">100 projets</Link> depuis 2014.
+                Depuis sa création en 2024, Africa Global Data organise des périodes intensives de soutien, où une sélection de projets reçoit l'appui de nos bénévoles engagés. Ces initiatives, centrées sur des questions sociales, sociétales et environnementales, profitent non seulement de notre encadrement mais aussi d'un programme enrichi de formations, conférences, et webinaires. Cette stratégie globale est conçue pour amplifier leur impact et augmenter les compétences de ceux qui s'investissent pour construire un futur plus prometteur.
                 </p>
-                <p>
-                  Nous sommes également fervents{" "}
-                  <b>critiques des risques et des dérives de la technologie</b>,
-                  faire partie de la communauté est aussi s'engager pour une
-                  technologie sobre et respectueuse des enjeux sociaux et
-                  environnementaux, et accepter que la technologie n'est pas la
-                  solution à tous les problèmes.
-                </p>
+                <p>En outre, nous portons un regard critique sur les risques et les dérives potentielles de la technologie. Être membre de notre communauté signifie promouvoir une approche de la technologie qui soit éthique, sobre et alignée sur les défis sociaux et environnementaux. Cela implique de reconnaître que la technologie, malgré sa puissance, n'est pas une panacée pour tous les problèmes.</p>
+                <b>Eric Makita, PhD</b>
               </div>
             </div>
           </div>
