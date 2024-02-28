@@ -2,12 +2,12 @@
 
 L'Intelligence Artificielle générative s'immisce de plus en plus dans nos vies à travers des outils (ChatGPT, Midjourney, DALL-E, etc... ) capables de générer des contenus (textuels, visuels et vidéo) de qualité quasi-humaine et à une vitesse inégalée. Nous nous devons de questionner l’impact de cette révolution technologique sur notre société. Il n'est plus seulement question de savoir comment exploiter ces outils, mais aussi et surtout pourquoi et dans quel but.
 
-Data For Good, depuis sa création en 2014, travaille inlassablement à mettre le numérique au service de l'intérêt général. C'est dans cette perspective que nous avons conduit une recherche approfondie sur les enjeux de l'IA générative, ses implications directes et indirectes sur nos vies, notre environnement et notre société.
+Africa Global Data, depuis sa création en 2024, travaille inlassablement à mettre le numérique au service de l'intérêt général. C'est dans cette perspective que nous avons conduit une recherche approfondie sur les enjeux de l'IA générative, ses implications directes et indirectes sur nos vies, notre environnement et notre société.
 
 L'objectif de ce premier rapport est de fournir une analyse détaillée des risques présentés par ces avancées technologiques, tout en proposant des recommandations ciblées aux utilisateurs, aux décideurs et aux développeurs, afin de maximiser l’impact positif de l'IA générative sur la société et minimiser les risques qui lui sont associés.
 
 
-
+<!-- 
 ## 📖 Le livre blanc
 
 :::info Le Livre blanc "Les grands défis de l'IA générative"
@@ -22,8 +22,8 @@ Nous sommes ravis de vous partager notre premier livre blanc "Les grands défis 
 <div style={{"text-align":"center","margin-bottom":"20px"}}>
 <a href="https://issuu.com/dataforgood/docs/dataforgood_livreblanc_iagenerative_v1.0?fr=sZGE0MjYyNjE5MTU" target="_blank" className="button button--secondary button--lg button-home">
 Ouvrir le livre blanc
-</a>
-</div>
+</a> 
+</div> -->
 
 
 Ce premier rapport aborde 4 sujets principaux :
@@ -35,18 +35,16 @@ Ce premier rapport aborde 4 sujets principaux :
 
 "Les meilleurs esprits de notre génération passent leur temps à faire cliquer des gens sur des publicités", a déploré un des premiers employés de Facebook. Et si nous pouvions ensemble redonner un sens à la technologie? C’est la mission que Data For Good s’est donnée. Soyons techno-lucides à l’ère de l’IA générative.
 
-## 📺 Webinar IA générative
 
-Le livre blanc a été présenté pendant un webinar accessible ici 
-
-<iframe width="100%" height="500px" src="https://www.youtube.com/embed/uf62I49mmok?si=CLHSkWOmgf2RVBAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- 
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/uf62I49mmok?si=CLHSkWOmgf2RVBAy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 
 ## 🔎 Contact
 
-**Contacts (presse, conférences, ...)** à [genai@dataforgood.fr](mailto:genai@dataforgood.fr)
+**Contacts (presse, conférences, ...)** à [contact@fricaglobaldata.com](mailto:contact@africaglobaldata.com)
 
-
+<!-- 
 ## 📚 La newsletter IA générative
 
 Nous publions tous les mois des newsletters sur l'IA générative et ses enjeux sociaux et environnementaux
@@ -54,5 +52,5 @@ Nous publions tous les mois des newsletters sur l'IA générative et ses enjeux 
 <div style={{"text-align":"center","margin-bottom":"20px"}}>
 <a href="https://ffb35838.sibforms.com/serve/MUIFAIczIPsf5oU0RDwjOJQIVk8nIKyOoQutXZIr_4q1gZziFfmHch_KUPT-E0iiQI2E3lda7_dCDIx04Ke-_KlrUVsoFfNx0TFZCWWJCSIkVmHzoRDsVbKwn4nG76s7qkTRZrvR9oELb3sYTD5UP_uVTDmafyMIj5Cs-j2Wih75XJ0MyEpjmzxqpBmherFOaVrkh6YndPMcPnFZ" target="_blank" className="button button--secondary button--lg button-home">
 S'inscrire à la newsletter sur l'IA générative - 1min ⏱
-</a>
-</div>
+</a> 
+</div> -->
