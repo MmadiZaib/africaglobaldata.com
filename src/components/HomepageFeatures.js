@@ -25,8 +25,8 @@ const FeatureList = [
     description: (
       <>
         <p style={{"text-align":"left"}}>Chaque jour, de nouveaux défis sont à relever en matière de <b>santé, d'environnement, d'inclusion sociale, d'éducation ou de citoyenneté</b>. Et chaque jour, de nouvelles idées germent et de plus en plus de citoyens veulent s'engager.</p>
-        <p style={{"text-align":"left"}}>La communauté Data for Good rassemble celles et ceux qui veulent façonner des projets concrets et sur mesure en réponse à ces défis. Elle offre un cadre vivant et bienveillant où ces projets éclosent, mûrissent et se déploient.</p>
-        <p style={{"text-align":"left"}}>Jeff Hammerbacher regrettait : <i>"The best minds of my generation are thinking about how to make people click ads. That sucks."</i> - C'est pour cette raison que nous rassemblons la communauté Data For Good, pour rediriger l'énergie créatrice vers l'intérêt général et la création de communs.</p>
+        <p style={{"text-align":"left"}}>La communauté Africa Global Data rassemble celles et ceux qui veulent façonner des projets concrets et sur mesure en réponse à ces défis. Elle offre un cadre vivant et bienveillant où ces projets éclosent, mûrissent et se déploient.</p>
+        <p style={{"text-align":"left"}}>Jeff Hammerbacher regrettait : <i>"The best minds of my generation are thinking about how to make people click ads. That sucks."</i> - C'est pour cette raison que nous rassemblons la communauté Africa Global Data, pour rediriger l'énergie créatrice vers l'intérêt général et la création de communs.</p>
       </>
     ),
   },
