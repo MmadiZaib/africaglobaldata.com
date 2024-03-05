@@ -43,7 +43,7 @@ function HomepageHeader() {
       >
         <div className="container">
           <img
-            src={`${useBaseUrl("img/logo-dfg-new2.png")}`}
+            src={`${useBaseUrl("img/logo-agd.png")}`}
             style={{ width: 200, "margin-bottom": 0 }}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -163,13 +163,13 @@ const teamList = [
     contact: "#",
   },
   {
-    src: "img/team/marty.png",
+    src: "img/logo-agd.png",
     name: "Patrick Moyap",
     role: "Référent Big Data",
     contact: "#",
   },
   {
-    src: "img/team/marty.png",
+    src: "img/logo-agd.png",
     name: "Kevin Mezui",
     role: "Référent Intelligence Artificielle",
     contact: "#",
