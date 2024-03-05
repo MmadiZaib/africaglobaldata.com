@@ -341,7 +341,7 @@ Cela souligne notre conviction profonde que c'est en unissant nos efforts que no
             </div>
           </div>
         </section>
-        <section>
+{/*         <section>
           <div className="container main-section">
             <h1>Les projets Africa Global Data</h1>
             <p>
@@ -350,7 +350,7 @@ Cela souligne notre conviction profonde que c'est en unissant nos efforts que no
             </p>
             <SectionProjects />
           </div>
-        </section>
+        </section> */}
         <section className="light-green">
           <div className="container main-section">
             <h1>L'équipe Africa Global Data</h1>

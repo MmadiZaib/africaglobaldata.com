@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   deploymentBranch: "main",
-  favicon: "img/logo-dfg-new.png",
+  favicon: "img/logo-agd.png",
   organizationName: "africaglobaldata", // Usually your GitHub org/user name.
   projectName: "africaglobaldata.com", // Usually your repo name.
   plugins: [
@@ -69,7 +69,7 @@ const config = {
         title: "Africa Global Data",
         logo: {
           alt: "Africa Global Data Logo",
-          src: "img/logo-dfg-new2.png",
+          src: "img/logo-agd.png",
         },
         items: [
           // {
@@ -84,6 +84,11 @@ const config = {
             position: "left",
           },
           {
+            to: "#",
+            label: "⭐ Projets",
+            position: "left",
+          },
+/*           {
             label: "⭐ Projets",
             position: "left",
             dropdownActiveClassDisabled: true,
@@ -113,11 +118,11 @@ const config = {
                 to: "https://dataforgood.notion.site/Trouver-un-projet-6244df9394d048fca5e7350260919c8c",
               },
             ],
-          },
-          { to: "/bog", label: "📚 Blog", position: "left" },
-          //{ to: "/blog", label: "📚 Blog", position: "left" },
+          }, */
+          // { to: "/blog", label: "📚 Blog", position: "left" },
+          { to: "/", label: "📚 Blog", position: "left" },
+          // { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           { to: "/", label: "🤖 IA Générative", position: "left" },
-          //{ to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
           {
             //to: "/join",
             to: "/",
@@ -144,7 +149,7 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: "/",
+            href: "#",
             className: "header-github-link",
             position: "right",
             "aria-label": "GitHub repository",
