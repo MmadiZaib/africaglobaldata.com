@@ -53,8 +53,8 @@ function HomepageHeader() {
             style={{ display: "flex", "justify-content": "center" }}
           >
             <HomeButton
-              text="🌎 Découvrir l'association"
-              to="https://africaglobaldata.com"
+              text="🌎 Inscription au webinaire"
+              to="#"
             />
             {/*<HomeButton text="💪 Rejoindre la communauté" to="/join" /> */}
             {/*<HomeButton text="💡 Proposer un projet" to="/propose" />*/}
@@ -315,11 +315,11 @@ export default function Home() {
 
         <section className="light-green">
           <div className="container main-section">
-            <h1>L'association Africa Global Data</h1>
+            <h1>WEBINAIRE DATA & JO 2024</h1>
             <div className="row">
               <div className="col col--6">
                 <img
-                  src={`${useBaseUrl("img/africa.png")}`}
+                  src={`${useBaseUrl("img/webinaire.jpeg")}`}
                   alt="dfg-demoday"
                   style={{ width: "100%", "margin-bottom": "20px" }}
                 />
@@ -328,15 +328,22 @@ export default function Home() {
                 className="col col--6"
                 style={{ "text-align": "left", "align-content": "center" }}
               >
-                <p>Africa Global Data, association loi 1901 dédiée à l'engagement citoyen et fondée en 2024, incarne l'esprit de collaboration et d'entraide. Guidée par la sagesse africaine qui enseigne que l'union fait la force, notre communauté bénévole et open-source de passionnés tech s'unit pour offrir ses compétences au service des associations, des ONG et de l'économie sociale et solidaire.
-Notre philosophie s'ancre dans la conviction que la collaboration transcende les frontières, qu'elles soient géographiques, culturelles ou professionnelles, à travers le monde.Guidés par une expertise collective en données, qui séduit étudiants, professionnels actifs et personnes en reconversion, nous puisons notre force dans la diversité de nos rencontres et de nos échanges. 
-Cela souligne notre conviction profonde que c'est en unissant nos efforts que nous pouvons accomplir de grandes choses pour l'intérêt général.
+                <p>Analyse des performances des Pays Africains aux Jeux Olympiques:
+                    Historique et Prédictions pour Paris 2024
+
+                    Mercredi 17 Juillet 2024 à 19h (Paris, UTC/GMT +2H)
                 </p>
-                <p>
-                Depuis sa création en 2024, Africa Global Data organise des périodes intensives de soutien, où une sélection de projets reçoit l'appui de nos bénévoles engagés. Ces initiatives, centrées sur des questions sociales, sociétales et environnementales, profitent non seulement de notre encadrement mais aussi d'un programme enrichi de formations, conférences, et webinaires. Cette stratégie globale est conçue pour amplifier leur impact et augmenter les compétences de ceux qui s'investissent pour construire un futur plus prometteur.
-                </p>
-                <p>En outre, nous portons un regard critique sur les risques et les dérives potentielles de la technologie. Être membre de notre communauté signifie promouvoir une approche de la technologie qui soit éthique, sobre et alignée sur les défis sociaux et environnementaux. Cela implique de reconnaître que la technologie, malgré sa puissance, n'est pas une panacée pour tous les problèmes.</p>
-                <b>Eric Makita, PhD</b>
+                <b>SPÉCIALISTES DATA</b>
+                  <p>
+                      Dr ÉEIC MAKITA
+                      MURIEL BITOME
+                      JOSEPH ASSU ONDO
+                      ISMAILA DIA
+                      FABRICE TCHISSAMBOU
+                  </p>
+
+                  <b>Animation & Modération</b>
+                  <p>Danielle MENGUE</p>
               </div>
             </div>
           </div>
@@ -365,8 +372,6 @@ Cela souligne notre conviction profonde que c'est en unissant nos efforts que no
         </section>
         <section>
           <div className="container main-section">
-            <h1>Nos partenaires</h1>
-            <SectionPartners />
           </div>
         </section>
       </main>
