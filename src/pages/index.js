@@ -296,7 +296,6 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
 
 {/*         <section>
           <div className="container main-section">
@@ -351,6 +350,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+          <HomepageFeatures />
 {/*         <section>
           <div className="container main-section">
             <h1>Les projets Africa Global Data</h1>
