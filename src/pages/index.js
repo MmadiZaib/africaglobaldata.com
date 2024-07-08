@@ -116,8 +116,8 @@ const teamList = [
   // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
   {
     src: "img/team/muriel.png",
-    name: "Muriel  Andong Bitome",
-    role: "Directrice de la communication",
+    name: "Muriel Bitome",
+    role: "Data analyste, Responsable Communication & Partenariats",
     contact: "#",
   },
   {
