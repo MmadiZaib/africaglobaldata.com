@@ -53,7 +53,7 @@ function HomepageHeader() {
             style={{ display: "flex", "justify-content": "center" }}
           >
             <HomeButton
-              text="🌎 Inscription au webinaire"
+              text="🌎 Inscription au webinaire Data & JO 2024"
               to="https://daf862e7.sibforms.com/serve/MUIFANCNiDj12R3mx-7WB-F-OjvjOvnc9SGVlJMK1tPJSrjHZmzG8LIB2-IEYuHwHsnxDgjXvdtB2GxFWWHV_Cbzzgc1u1Etr3tQ-haVfpV9w3Ai7vf2g1CFCKLYHTRrCAexUVYj1z3tTjFD8tb8jrr8WNkEJ3Cfg4sw_VnrOAva87MZEc3ba-aDeAQvVIs4oHu-E9iTYFFoggSt"
             />
             {/*<HomeButton text="💪 Rejoindre la communauté" to="/join" /> */}
