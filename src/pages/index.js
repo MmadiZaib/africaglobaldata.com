@@ -56,8 +56,8 @@ function HomepageHeader() {
               text="🌎 Découvrir l'association"
               to="https://africaglobaldata.com"
             />
-            <HomeButton text="💪 Rejoindre la communauté" to="/join" />
-            <HomeButton text="💡 Proposer un projet" to="/propose" />
+            {/*<HomeButton text="💪 Rejoindre la communauté" to="/join" /> */}
+            {/*<HomeButton text="💡 Proposer un projet" to="/propose" />*/}
             {/* <HomeButton text="🤗 Participer à la saison 12" to="/saison12" /> */}
           </div>
         </div>
