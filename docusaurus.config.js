@@ -78,16 +78,16 @@ const config = {
           //   position: 'left',
           //   label: "🌎 Qui sommes-nous ?",
           // },
-          {
-            to: "#",
-            label: "🌎 Qui sommes-nous ?",
-            position: "left",
-          },
-          {
-            to: "#",
-            label: "⭐ Projets",
-            position: "left",
-          },
+          // {
+          //   to: "#",
+          //   label: "🌎 Qui sommes-nous ?",
+          //   position: "left",
+          // },
+          // {
+          //   to: "#",
+          //   label: "⭐ Projets",
+          //   position: "left",
+          // },
 /*           {
             label: "⭐ Projets",
             position: "left",
@@ -120,23 +120,23 @@ const config = {
             ],
           }, */
           // { to: "/blog", label: "📚 Blog", position: "left" },
-          { to: "/", label: "📚 Blog", position: "left" },
-          // { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
-          { to: "/", label: "🤖 IA Générative", position: "left" },
-          {
-            //to: "/join",
-            to: "/",
-            label: "💪 Rejoindre la communauté",
-            className: "button button--secondary button--lg button-navbar",
-            position: "right",
-          },
-          {
-            //to: "/propose",
-            to: "/",
-            label: "💡 Proposer un projet",
-            className: "button button--secondary button--lg button-navbar",
-            position: "right",
-          },
+          // { to: "/", label: "📚 Blog", position: "left" },
+          // // { to: "/iagenerative", label: "🤖 IA Générative", position: "left" },
+          // { to: "/", label: "🤖 IA Générative", position: "left" },
+          // {
+          //   //to: "/join",
+          //   to: "/",
+          //   label: "💪 Rejoindre la communauté",
+          //   className: "button button--secondary button--lg button-navbar",
+          //   position: "right",
+          // },
+          // {
+          //   //to: "/propose",
+          //   to: "/",
+          //   label: "💡 Proposer un projet",
+          //   className: "button button--secondary button--lg button-navbar",
+          //   position: "right",
+          // },
 //          {
 //            to: "#",
 //            label: "👏 Faire un don",
@@ -148,12 +148,12 @@ const config = {
           //   label: 'FAQ',
           //   position: 'right',
           // },
-          {
-            href: "#",
-            className: "header-github-link",
-            position: "right",
-            "aria-label": "GitHub repository",
-          },
+          // {
+          //   href: "#",
+          //   className: "header-github-link",
+          //   position: "right",
+          //   "aria-label": "GitHub repository",
+          // },
         ],
       },
       footer: {
