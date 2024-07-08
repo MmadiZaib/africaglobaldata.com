@@ -328,8 +328,10 @@ export default function Home() {
                 className="col col--6"
                 style={{ "text-align": "left" }}
               >
-                  <p>Analyse des performances des Pays Africains aux Jeux Olympiques:</p>
-                  <p>Historique et Prédictions pour Paris 2024</p>
+                  <p>Rejoignez Africa Global Data pour une analyse approfondie des performances des pays africains aux Jeux Olympiques, de 1904 à aujourd'hui, et découvrez nos prédictions pour les JO de Paris 2024. Ce webinaire exclusif vous offre une occasion unique de plonger dans les données historiques et de comprendre les tendances qui façonnent l'avenir des athlètes africains sur la scène olympique.
+
+                      Ne manquez pas cette opportunité de découvrir les insights passionnants sur l'évolution et les perspectives des performances africaines aux JO !
+                  </p>
                   <p>Date : <b>Mercredi 17 Juillet 2024 </b></p>
                   <p>Heure : <b>19h (Paris, UTC/GMT +2H)</b> </p>
 
