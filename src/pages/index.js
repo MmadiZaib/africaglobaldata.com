@@ -315,7 +315,8 @@ export default function Home() {
 
         <section className="light-green">
           <div className="container main-section">
-            <h1>WEBINAIRE DATA & JO 2024</h1>
+            <h1>WEBINAIRE</h1>
+            <h2>DATA & JO 2024</h2>
             <div className="row">
               <div className="col col--6">
                 <img
@@ -328,10 +329,10 @@ export default function Home() {
                 className="col col--6"
                 style={{ "text-align": "left" }}
               >
-                <p>Analyse des performances des Pays Africains aux Jeux Olympiques:
-                    Historique et Prédictions pour Paris 2024
-
-                    Mercredi 17 Juillet 2024 à 19h (Paris, UTC/GMT +2H)
+                <p>Analyse des performances des Pays Africains aux Jeux Olympiques: <p/>
+                <p>Historique et Prédictions pour Paris 2024</>
+                <p>Date: Mercredi 17 Juillet 2024 </p>
+                <p>Heure: 19h (Paris, UTC/GMT +2H)</p>
                 </p>
                 <b>SPÉCIALISTES DATA</b>
                   <p>

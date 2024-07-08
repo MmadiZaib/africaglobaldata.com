@@ -24,25 +24,8 @@ const FeatureList = [
     Svg: require('../../static/img/pillar2.svg').default,
     description: (
       <>
-        <p style={{"text-align":"left"}}>Chaque jour, de nouveaux défis sont à relever en matière de <b>santé, d'environnement, d'inclusion sociale, d'éducation ou de citoyenneté</b>. Et chaque jour, de nouvelles idées germent et de plus en plus de citoyens veulent s'engager.</p>
-        <p style={{"text-align":"left"}}>La communauté Africa Global Data rassemble celles et ceux qui veulent façonner des projets concrets et sur mesure en réponse à ces défis. Elle offre un cadre vivant et bienveillant où ces projets éclosent, mûrissent et se déploient.</p>
+        <p style={{"text-align":"left"}}>Chaque jour, de nouveaux défis sont à relever en matière de <b>santé, d'environnement, d'inclusion sociale, d'éducation ou de citoyenneté</b>. Et chaque jour, de nouvelles idées germent et de plus en plus de citoyens veulent s'engager.</p><p style={{"text-align":"left"}}>La communauté Africa Global Data rassemble celles et ceux qui veulent façonner des projets concrets et sur mesure en réponse à ces défis. Elle offre un cadre vivant et bienveillant où ces projets éclosent, mûrissent et se déploient.</p>
         <p style={{"text-align":"left"}}>Jeff Hammerbacher regrettait : <i>"The best minds of my generation are thinking about how to make people click ads. That sucks."</i> - C'est pour cette raison que nous rassemblons la communauté Africa Global Data, pour rediriger l'énergie créatrice vers l'intérêt général et la création de communs.</p>
-      </>
-    ),
-  },
-  {
-    title: 'Nos valeurs',
-    src: require('../../static/img/pillar3.png').default,
-    Svg: require('../../static/img/pillar3.svg').default,
-    description: (
-      <>
-        <ul style={{"text-align":"left"}}>
-          <li><b>Innovation</b> – Nous nous engageons à innover dans le domaine de la data en Afrique en sensibilisant et en renforçant les compétences des apprenants, malgré les obstacles.
-          Notre ambition est de devenir la plateforme de référence pour la prise de décisions en Afrique francophone, en explorants les données et les informations afin d'en tirer des enseignements précieux et pertinents.
-          </li>
-          <li><b>Intégrité</b> – L'intégrité est fondamentale pour nous, ce qui signifie que nous nous engageons à respecter la confidentialité, la précision et la qualité des données dans tous nos travaux et dans nos relations avec nos partenaires.</li>
-          <li><b>Inclusion</b> – L'inclusion est une valeur au sein d'Africa Global Data : chaque individu est bienvenu, quel que soit son profil ou son niveau d'études.</li>
-        </ul>
       </>
     ),
   },

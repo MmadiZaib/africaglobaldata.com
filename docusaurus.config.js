@@ -159,66 +159,6 @@ const config = {
       footer: {
         style: "light",
         links: [
-          {
-            title: "Pages",
-            items: [
-              {
-                label: "L'association Africa Global Data",
-                to: "#",
-              },
-              {
-                label: "Serment d'Hippocrate",
-                to: "/hippocrate",
-              },
-              {
-                label: "FAQ",
-                to: "#",
-              },
-              {
-                label: "Politique de confidentialité",
-                to: "/confidentialite",
-              },
-            ],
-          },
-          {
-            title: "Liens externes",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://africaglobaldata.com",
-              },
-              {
-                label: "Youtube",
-                href: "https://africaglobaldata.com",
-              },
-            ],
-          },
-          {
-            title: "Mais aussi",
-            items: [
-              {
-                label: "Blog",
-                //to: "/blog",
-                to: "/",
-              },
-              {
-                label: "Notion",
-                href: "https://africaglobaldata.com",
-              },
-              {
-                label: "Linkedin",
-                href: "https://africaglobaldata.com",
-              },
-              {
-                label: "Instagram",
-                href: "https://africaglobaldata.com",
-              },
-              {
-                label: "Twitter",
-                href: "https://africaglobaldata.com",
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Africa Global Data`,
       },
