@@ -104,15 +104,15 @@ const teamList = [
   {
     src: "img/team/zaib.jpeg",
     name: "Zaïb M'Madi",
-    role: "Web Developer",
+    role: "Lead Developer",
     contact: "https://www.linkedin.com/in/mmadi-zaib",
   },
-  {
-    src: "img/team/georf.jpeg",
-    name: "Georf Miguiama Bamba",
-    role: "Référent  Intelligence Artificielle",
-    contact: "https://www.linkedin.com/in/georfmiguiamabamba",
-  },
+    {
+        src: "img/team/joseph.jpg",
+        name: "Joseph Assu Ondo",
+        role: "Référent Data science",
+        contact: "#",
+    },
   // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
     {
         src: "img/team/renaud.jpg",
@@ -132,12 +132,12 @@ const teamList = [
     role: "Référent environnement",
     contact: "#",
   },
-  {
-    src: "img/team/joseph.jpg",
-    name: "Joseph Assu Ondo",
-    role: "Référent Data science",
-    contact: "#",
-  },
+    {
+        src: "img/team/georf.jpeg",
+        name: "Georf Miguiama Bamba",
+        role: "Référent  Intelligence Artificielle",
+        contact: "https://www.linkedin.com/in/georfmiguiamabamba",
+    },
   {
     src: "img/team/ludvia.jpg",
     name: "Ludvia Mbourou",
@@ -164,8 +164,8 @@ const teamList = [
   },
   {
     src: "img/logo-agd.png",
-    name: "Patrick Moyap",
-    role: "Référent Big Data",
+    name: "ISMAILA DIA",
+    role: "Référent Data Analyse",
     contact: "#",
   },
   {
