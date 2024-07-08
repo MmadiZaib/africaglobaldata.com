@@ -330,8 +330,8 @@ export default function Home() {
               >
                   <p>Analyse des performances des Pays Africains aux Jeux Olympiques:</p>
                   <p>Historique et Prédictions pour Paris 2024</p>
-                  <p>Date : Mercredi 17 Juillet 2024 </p>
-                  <p>Heure :19h (Paris, UTC/GMT +2H) </p>
+                  <p>Date : <b>Mercredi 17 Juillet 2024 </b></p>
+                  <p>Heure : <b>19h (Paris, UTC/GMT +2H)</b> </p>
 
                 <b>SPÉCIALISTES DATA</b>
                   <p>
