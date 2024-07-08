@@ -329,10 +329,11 @@ export default function Home() {
                 className="col col--6"
                 style={{ "text-align": "left" }}
               >
-                <p>Analyse des performances des Pays Africains aux Jeux Olympiques: <p/>
-                <p>Historique et Prédictions pour Paris 2024<p/>
-                <p>Date: Mercredi 17 Juillet 2024 </p>
-                <p>Heure: 19h (Paris, UTC/GMT +2H)</p>
+                  <p>Analyse des performances des Pays Africains aux Jeux Olympiques:</p>
+                  <p>Historique et Prédictions pour Paris 2024</p>
+                  <p>Date : Mercredi 17 Juillet 2024 </p>
+                  <p>Heure :19h (Paris, UTC/GMT +2H) </p>
+
                 <b>SPÉCIALISTES DATA</b>
                   <p>
                       <ul>
