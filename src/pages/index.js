@@ -333,7 +333,6 @@ export default function Home() {
                 <p>Historique et Prédictions pour Paris 2024<p/>
                 <p>Date: Mercredi 17 Juillet 2024 </p>
                 <p>Heure: 19h (Paris, UTC/GMT +2H)</p>
-                </p>
                 <b>SPÉCIALISTES DATA</b>
                   <p>
                       <ul>
