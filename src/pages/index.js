@@ -95,12 +95,12 @@ const teamList = [
     role: "Sécrétaire Général",
     contact: "https://www.linkedin.com/in/jol%C3%A8ne-eyeang-bitome-3964b616b/",
   },
-  {
-    src: "img/team/renaud.jpg",
-    name: "Renaud Moukala",
-    role: "Comptable",
-    contact: "https://www.linkedin.com/in/renaud-moukala-0ab4192b1",
-  },
+    {
+        src: "img/team/muriel.png",
+        name: "Muriel Bitome",
+        role: "Data analyste, Responsable Communication & Partenariats",
+        contact: "#",
+    },
   {
     src: "img/team/zaib.jpeg",
     name: "Zaïb M'Madi",
@@ -114,12 +114,12 @@ const teamList = [
     contact: "https://www.linkedin.com/in/georfmiguiamabamba",
   },
   // {src:"img/team/lucile.jpg","name":"Lucile Ritchie","role":"Coordinatrice","contact":"https://www.linkedin.com/in/lucileritchie/"},
-  {
-    src: "img/team/muriel.png",
-    name: "Muriel Bitome",
-    role: "Data analyste, Responsable Communication & Partenariats",
-    contact: "#",
-  },
+    {
+        src: "img/team/renaud.jpg",
+        name: "Renaud Moukala",
+        role: "Comptable",
+        contact: "https://www.linkedin.com/in/renaud-moukala-0ab4192b1",
+    },
   {
     src: "img/team/gregory.jpg",
     name: "Dr Gregory Obiang Ndong",
