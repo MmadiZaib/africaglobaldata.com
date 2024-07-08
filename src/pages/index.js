@@ -335,15 +335,17 @@ export default function Home() {
                 </p>
                 <b>SPÉCIALISTES DATA</b>
                   <p>
-                      Dr ÉEIC MAKITA
-                      MURIEL BITOME
-                      JOSEPH ASSU ONDO
-                      ISMAILA DIA
-                      FABRICE TCHISSAMBOU
+                      <ul>
+                          <li>Dr ÉRIC MAKITA</li>
+                          <li>MURIEL BITOME</li>
+                          <li>JOSEPH ASSU ONDO</li>
+                          <li>ISMAILA DIA</li>
+                          <li>FABRICE TCHISSAMBOU</li>
+                      </ul>
                   </p>
 
                   <b>Animation & Modération</b>
-                  <p>Danielle MENGUE</p>
+                  <p>Daniella MENGUE</p>
               </div>
             </div>
           </div>
