@@ -98,7 +98,7 @@ const teamList = [
     {
         src: "img/team/muriel.png",
         name: "Muriel Bitome",
-        role: "Data analyste, Responsable Communication & Partenariats",
+        role: "Data analyste, Responsable Communication",
         contact: "#",
     },
   {
