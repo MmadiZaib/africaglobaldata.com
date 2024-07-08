@@ -326,7 +326,7 @@ export default function Home() {
               </div>
               <div
                 className="col col--6"
-                style={{ "text-align": "left", "align-content": "center" }}
+                style={{ "text-align": "left" }}
               >
                 <p>Analyse des performances des Pays Africains aux Jeux Olympiques:
                     Historique et Prédictions pour Paris 2024
