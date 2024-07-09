@@ -319,7 +319,7 @@ export default function Home() {
             <div className="row">
               <div className="col col--6">
                 <img
-                  src={`${useBaseUrl("img/webinaire.jpeg")}`}
+                  src={`${useBaseUrl("img/webinaire_data.jpeg")}`}
                   alt="dfg-demoday"
                   style={{ width: "100%", "margin-bottom": "20px" }}
                 />
@@ -345,9 +345,6 @@ export default function Home() {
                           <li>FABRICE TCHISSAMBOU</li>
                       </ul>
                   </p>
-
-                  <b>Animation & Modération</b>
-                  <p>Daniella MENGUE</p>
               </div>
             </div>
           </div>
