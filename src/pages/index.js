@@ -102,7 +102,7 @@ const teamList = [
         contact: "#",
     },
   {
-    src: "img/team/zaib.jpeg",
+    src: "img/team/zaib.jeg",
     name: "Zaïb M'Madi",
     role: "Lead Developer",
     contact: "https://www.linkedin.com/in/mmadi-zaib",
@@ -163,7 +163,7 @@ const teamList = [
     contact: "#",
   },
   {
-    src: "img/logo-agd.png",
+    src: "img/ismaila.jpeg",
     name: "ISMAILA DIA",
     role: "Référent Data Analyse",
     contact: "#",
