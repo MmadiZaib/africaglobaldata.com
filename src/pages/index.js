@@ -163,7 +163,7 @@ const teamList = [
     contact: "#",
   },
   {
-    src: "img/ismaila.jpeg",
+    src: "img/team/ismaila.jpeg",
     name: "ISMAILA DIA",
     role: "Référent Data Analyse",
     contact: "#",
