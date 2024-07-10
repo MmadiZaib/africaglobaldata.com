@@ -102,7 +102,7 @@ const teamList = [
         contact: "#",
     },
   {
-    src: "img/team/zaib.jeg",
+    src: "img/team/zaib.jpg",
     name: "Zaïb M'Madi",
     role: "Lead Developer",
     contact: "https://www.linkedin.com/in/mmadi-zaib",
