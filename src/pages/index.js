@@ -319,7 +319,7 @@ export default function Home() {
             <div className="row">
               <div className="col col--6">
                 <img
-                  src={`${useBaseUrl("img/webinaire_data.jpeg")}`}
+                  src={`${useBaseUrl("img/jo_2024.jpeg")}`}
                   alt="dfg-demoday"
                   style={{ width: "100%", "margin-bottom": "20px" }}
                 />
