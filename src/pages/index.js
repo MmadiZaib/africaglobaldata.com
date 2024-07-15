@@ -345,6 +345,8 @@ export default function Home() {
                           <li>FABRICE TCHISSAMBOU</li>
                       </ul>
                   </p>
+                  <b>Animation & Modération</b>
+                  <p>Maé-Bérénice MÉITÉ</p>
               </div>
             </div>
           </div>
